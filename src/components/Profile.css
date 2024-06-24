@@ -1,0 +1,40 @@
+/* src/components/Profile.css */
+
+/* Style for the profile container */
+.profile-container {
+    max-width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the profile header */
+  .profile-header {
+    text-align: center;
+        font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  
+  }
+  
+  /* Style for profile information */
+  .profile-info {
+    margin-bottom: 10px;
+    margin-left: 200px;
+  }
+  
+  .profile-info label {
+    font-weight: bold;
+  }
+  
+  .profile-info span {
+    margin-left: 10px;
+  }
+  .profile-image-container{
+    margin-left: 200px;
+  }
+  

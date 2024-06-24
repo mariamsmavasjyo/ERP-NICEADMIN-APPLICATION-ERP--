@@ -1,0 +1,69 @@
+/* src/components/NavBar.css */
+.custom-navbar {
+    background-color: #28a745 !important; /* Adjust color to match your image */
+    height: 68px;
+  }
+  
+  .badge {
+    background-color: red;
+    color: white;
+    border-radius: 45%;
+    padding: 2px 8px;
+    font-size: 0.8em;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 85px;
+    top: -5px;
+    right: -10px;
+  }
+  .badge1 {
+    background-color: rgb(58, 16, 116);
+    color: white;
+    border-radius: 45%;
+    padding: 2px 8px;
+    font-size: 0.8em;
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 100px;
+    top: -5px;
+    right: -10px;
+  }
+  
+  .navbar-logo {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+  }
+  
+  .profile-image {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .search-form {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  .search-button {
+    border: none;
+  }
+  
+  .nav-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 15px;
+    position: relative; /* Ensure the badge is positioned relative to the icon */
+  }
+  
+  .nav-icon .nav-icon-name {
+    margin-left: 5px;
+  }
+  
+  .ml-auto {
+    margin-right: 24px;
+  }
+  

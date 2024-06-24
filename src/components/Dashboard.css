@@ -1,0 +1,75 @@
+.content {
+    padding: 20px;
+    width: 82.5%;
+    margin-left: 250px;
+   margin-top: -800px;
+   margin-right: -30px;
+   background-color: rgb(214, 207, 198);
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Dash {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .stats-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .text-success {
+    color: green;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .chart-container, .activity-container {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .activity-list li {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .activity-list li span {
+    margin-left: 10px;
+  }
